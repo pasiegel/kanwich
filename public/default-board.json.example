@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "boardOrder": ["welcome-board"],
+  "boards": {
+    "welcome-board": {
+      "id": "welcome-board",
+      "title": "Welcome to Kanwich",
+      "color": "#f59e0b",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z",
+      "labels": [
+        { "id": "label-info", "name": "Info", "color": "#3b82f6" }
+      ],
+      "columns": [
+        { "id": "col-todo", "title": "To Do", "cardIds": ["card-1", "card-2"] },
+        { "id": "col-doing", "title": "In Progress", "cardIds": [] },
+        { "id": "col-done", "title": "Done", "cardIds": ["card-3"] }
+      ],
+      "cards": {
+        "card-1": {
+          "id": "card-1",
+          "title": "Rename this board and make it yours",
+          "description": "Everything on this board lives only in your browser's local storage — nothing leaves your machine.",
+          "labelIds": ["label-info"],
+          "subtasks": [],
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "updatedAt": "2026-01-01T00:00:00.000Z"
+        },
+        "card-2": {
+          "id": "card-2",
+          "title": "Try dragging cards between columns",
+          "subtasks": [
+            { "id": "st-1", "title": "Drag this card to In Progress", "completed": false },
+            { "id": "st-2", "title": "Check a subtask off", "completed": false }
+          ],
+          "labelIds": [],
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "updatedAt": "2026-01-01T00:00:00.000Z"
+        },
+        "card-3": {
+          "id": "card-3",
+          "title": "Export your data regularly",
+          "description": "Use the Export All button on the dashboard to save a JSON backup — that file is also how you move boards to another PC.",
+          "labelIds": [],
+          "subtasks": [],
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "updatedAt": "2026-01-01T00:00:00.000Z"
+        }
+      }
+    }
+  }
+}

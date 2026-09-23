@@ -1,0 +1,39 @@
+appId: com.kanwich.app
+productName: Kanwich
+copyright: Copyright © Kanwich
+
+directories:
+  output: release
+  buildResources: buildResources
+
+files:
+  - dist/**/*
+  - build/electron/**/*
+  - package.json
+
+win:
+  icon: buildResources/icon.png
+  target:
+    - target: nsis
+      arch: [x64]
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+
+mac:
+  icon: buildResources/icon.png
+  category: public.app-category.productivity
+  target:
+    - target: dmg
+      arch: [x64, arm64]
+
+linux:
+  icon: buildResources/icon.png
+  category: Office
+  target:
+    - target: AppImage
+      arch: [x64]
+    - target: deb
+      arch: [x64]
