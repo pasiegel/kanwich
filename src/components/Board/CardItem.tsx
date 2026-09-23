@@ -19,7 +19,7 @@ function isOverdue(dueDate: string, allSubtasksDone: boolean): boolean {
 
 export default function CardItem({ card, board, columnId, onOpen }: CardItemProps) {
   const toggleSubtask = useKanwichStore((s) => s.toggleSubtask)
-  const [expanded, setExpanded] = useState(false)
+  const [expanded, setExpanded] = useState(true)
 
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({
     id: card.id,
