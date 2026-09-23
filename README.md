@@ -23,9 +23,7 @@ you'd order.
 ## 🚀 Getting started
 
 > [!NOTE]
-> No install needed to try it — Kanwich also runs as a website. See
-> **[TECHNICAL.md](TECHNICAL.md)** for hosting it yourself (GitHub Pages
-> or a local Apache server) if that link isn't live yet.
+> No install needed to try it — Kanwich also runs as a website.
 
 ### 🖥️ Desktop app
 
@@ -79,11 +77,6 @@ you can "Install" it from your browser's address bar like any other PWA.
 5. **Back up everything** — from the dashboard, **Export All** saves one
    JSON file with every board. **Import** restores it (here or on another
    device).
-
-## 🤓 Want the technical details?
-
-Architecture, scripts, CI/CD, and the Electron build all live in
-**[TECHNICAL.md](TECHNICAL.md)**.
 
 ---
 
