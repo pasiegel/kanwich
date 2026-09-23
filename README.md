@@ -23,7 +23,7 @@ you'd order.
 ## 🚀 Getting started
 
 > [!NOTE]
-> No install needed to try it — Kanwich also runs as a website.
+> No install needed to try it — Kanwich also runs as a [website](https://pasiegel.github.io/kanwich/).
 
 ### 🖥️ Desktop app
 
@@ -33,8 +33,7 @@ app. No setup, no login screen.
 
 ### 🌐 Try it in a browser
 
-Open `index.html` from a local build, or visit the hosted version once
-it's deployed (see the technical README). Works offline once loaded, and
+Open `index.html` from a local build, or visit the [hosted version](https://pasiegel.github.io/kanwich/). Works offline once loaded, and
 you can "Install" it from your browser's address bar like any other PWA.
 
 ## 🎯 What it does
